@@ -13,26 +13,31 @@ learning models and deep learning techniques, robust results can be achieved in 
 benign or malicious. This solution has a significant impact, enhancing online security, protecting users
 from cyber threats, and contributing to a safer online environment. The insights/inferences from this
 project can be summarized as below:
-• Feature extraction, including various characteristics of URLs such as length, entropy, and
+
+•  Feature extraction, including various characteristics of URLs such as length, entropy, and
 counts of specific characters, contributes to building a robust model for detecting malicious
 URLs. Domain-related information and URL structure are crucial in capturing patterns
 indicative of phishing, malware, and defacement attacks. The choice of features aligns with
 the understanding that the landscape of malicious URLs is continually evolving. By
 leveraging features related to URL structure and content, the model can adapt to new
 techniques employed by cybercriminals.
-• The project emphasizes the importance of feature selection for model performance.
+
+•  The project emphasizes the importance of feature selection for model performance.
 Features like URL length, domain, subdomain, and various counts (characters, special
 characters) play a crucial role in distinguishing between benign and malicious URLs. The
 Random Forest feature importance technique highlights specific features that contribute
 significantly to the reduction in impurity across decision trees. This emphasizes the need
 for focusing on relevant features to improve model interpretability and avoid overfitting.
-• The exceptional performance of the 1D CNN classifier suggests that deep learning,
+
+•  The exceptional performance of the 1D CNN classifier suggests that deep learning,
 especially at the character level, is effective in capturing intricate patterns within URLs. This
 insight implies that the hierarchical representations learned by a CNN can discern complex
 relationships between characters.
-• We can observe a collective challenge in correctly classifying phishing attacks (label 2). This
+
+•  We can observe a collective challenge in correctly classifying phishing attacks (label 2). This
 insight indicates a potential area for improvement in the model's ability to identify and
 differentiate phishing URLs effectively.
+
 In summary, the impact of features extracted from the data underscore the importance of thoughtful
 feature selection and the effectiveness of deep learning in addressing the challenges of malicious URL
 detection. The insights provide guidance for refining the model, improving its capability to handle
